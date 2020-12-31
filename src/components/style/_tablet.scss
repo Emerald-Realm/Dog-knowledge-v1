@@ -1,0 +1,239 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  // .nav-list {
+  //     display: block
+  // }
+
+  * {
+    font-size: medium;
+  }
+
+  body {
+    width: 80%;
+    margin: auto;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: none;
+  }
+  
+  #navli {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include marginX(1rem);
+ }
+
+  .nav-list {
+    padding: 0;
+    padding-left: 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .head-nav {
+    flex-grow: 1;
+    width: 50%;
+    li {
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  
+
+  .nav-search {
+    input {
+      padding: 0.7rem;
+      border: none;
+      border-right: 4px solid $secondaryColor;
+    }
+  }
+
+  //HOME
+
+  .showcase {
+    display: flex;
+    align-items: center;
+  }
+
+  .breeds,
+  .talk {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 10%;
+    align-items: center;
+
+    .breed-img {
+      order: 2;
+    }
+
+    .talk-img {
+      order: 2;
+    }
+  }
+
+  .list,
+  .care {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 10%;
+    align-items: center;
+  }
+
+  .blog {
+    background-image: url("../images/dog-blog.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  //BREED
+
+  .ct2-breed {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    table-layout: auto;
+  }
+
+  p {
+    button {
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .hide {
+    display: none;
+    // position: absolute;
+    // background-color: #f1f1f1;
+    // min-width: 160px;
+    // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    // z-index: 1;
+  }
+
+  .show {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 30rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* The Overlay (background) */
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+
+  /* Position the content inside the overlay */
+  .overlay-content {
+    color: white;
+    position: absolute;
+    top: 5%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 0; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+
+  .close-overlay {
+    display: none;
+    position: fixed;
+    top: 0rem;
+    left: 35rem;
+  }
+
+  // BIGLIST
+
+  .big {
+    text-align: center;
+  }
+
+  //LIST
+
+  .content-list {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 10%;
+  }
+
+  //TALK
+
+  .content-talk {
+    .content1,
+    .content3 {
+      display: grid;
+      grid-template-columns: 50% 40%;
+      grid-gap: 10%;
+      align-items: center;
+    }
+
+    .content2 {
+      @extend .content1;
+      img {
+        order: 2;
+      }
+    }
+  }
+
+  // CARE
+
+  .content-care {
+    width: 80%;
+    @include paddingY(5rem);
+    margin: auto;
+    .context {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 45% 45%;
+      grid-template-rows: repeat(3, 25%);
+      grid-gap: 10%;
+      .page {
+        img {
+          border-radius: 9999px;
+        }
+        // background-color: aquamarine;
+        &:hover {
+          color: $linkColor;
+          text-decoration: underline;
+          cursor: pointer;
+          // border-bottom: 2px solid gray;
+        }
+      }
+    }
+  }
+
+  //SIGN IN
+
+  .form-body {
+    width: 50%;
+    margin: auto;
+  }
+} ;

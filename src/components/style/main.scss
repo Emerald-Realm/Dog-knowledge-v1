@@ -1,0 +1,49 @@
+* {
+    text-decoration: none;
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: small;
+}
+
+img {
+    width: 100%;
+}
+
+body, footer {
+    width: 90%;
+    margin: auto;
+    // border: 2px solid rgb(160, 160, 160);
+}
+
+$primaryColor : rgb(255, 189, 21);
+$secondaryColor : rgb(107, 107, 107);
+$linkColor : rgb(169, 169, 169);
+
+@mixin paddingY($pad) {
+    padding-top: $pad;
+    padding-bottom: $pad;
+}
+
+@mixin paddingX($pad) {
+    padding-left: $pad;
+    padding-right: $pad;
+}
+
+@mixin marginY($mar) {
+    margin-top: $mar;
+    margin-bottom: $mar;
+}
+
+@mixin marginX($mar) {
+    margin-left: $mar;
+    margin-right: $mar;
+}
+
+
+
+
+@import './header';
+@import './home';
+@import './tablet';
