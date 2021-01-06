@@ -27,7 +27,6 @@ function SignIn() {
               placeholder="password"
             />
           </div>
-//           <button className="submit-btn">Submit</button>
         </form>
         <div className="question">
           <div className="forgot">Forgot your password ?</div>
