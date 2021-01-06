@@ -15,7 +15,7 @@ function Talk() {
           to owners; to learn how to talk , relate with your dog and understand
           your dog.
         </div>
-        <div className="intro-sample">
+        <div className="intro-sample tx-ct">
           e.g. Dog Growling: What It Means And What You Should Do
         </div>
       </div>

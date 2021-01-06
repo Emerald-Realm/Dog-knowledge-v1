@@ -104,7 +104,7 @@ function Signup() {
               </label>
             </div>
           </div>
-            <button className="submit-btn" type="submit" >Submit</button>
+            {/* <button className="submit-btn" type="submit" >Submit</button> */}
           <div className="btns">
           <Link to="/sign-in">
           <button type="">back</button>

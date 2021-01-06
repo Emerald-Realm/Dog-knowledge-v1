@@ -3,7 +3,7 @@
   padding: none;
   margin: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   list-style: none;
   font-size: small;
 }
@@ -12,7 +12,8 @@ img {
   width: 100%;
 }
 
-body, footer {
+body,
+footer {
   width: 90%;
   margin: auto;
 }
@@ -35,11 +36,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .tabs {
@@ -57,7 +58,7 @@ header {
   list-style: none;
   padding-left: 0px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .nav-list li {
@@ -100,7 +101,9 @@ footer {
   text-align: center;
 }
 
-.siteTitle, .intro-title, .text-head {
+.siteTitle,
+.intro-title,
+.text-head {
   font-weight: bolder;
   color: #ffbd15;
 }
@@ -176,10 +179,10 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 30% 30%;
-      grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 30% 30% 30%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   grid-gap: 5%;
 }
 
@@ -265,11 +268,11 @@ form .password-div input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0.2rem;
 }
 
@@ -300,11 +303,11 @@ form .password-div input {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .sign-up form button {
@@ -327,11 +330,11 @@ form .password-div input {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .menu {
     display: none;
@@ -341,11 +344,11 @@ form .password-div input {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -357,14 +360,14 @@ form .password-div input {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin: 0;
   }
   .head-nav {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     width: 50%;
   }
   .head-nav li:hover {
@@ -380,42 +383,42 @@ form .password-div input {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .breeds,
   .talk {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% 50%;
-        grid-template-columns: 40% 50%;
+    grid-template-columns: 40% 50%;
     grid-gap: 10%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .breeds .breed-img,
   .talk .breed-img {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   .breeds .talk-img,
   .talk .talk-img {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   .list,
   .care {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% 50%;
-        grid-template-columns: 40% 50%;
+    grid-template-columns: 40% 50%;
     grid-gap: 10%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .blog {
     background-image: url("../images/dog-blog.png");
@@ -447,12 +450,12 @@ form .password-div input {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 30rem;
     -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
   /* The Overlay (background) */
@@ -500,24 +503,25 @@ form .password-div input {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 45% 45%;
-        grid-template-columns: 45% 45%;
+    grid-template-columns: 45% 45%;
     grid-gap: 10%;
   }
-  .content-talk .content1, .content-talk .content2,
+  .content-talk .content1,
+  .content-talk .content2,
   .content-talk .content3 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% 40%;
-        grid-template-columns: 50% 40%;
+    grid-template-columns: 50% 40%;
     grid-gap: 10%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .content-talk .content2 img {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
   }
   .content-care {
     width: 80%;
@@ -529,12 +533,12 @@ form .password-div input {
     display: -ms-grid;
     display: grid;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-grid-columns: 45% 45%;
-        grid-template-columns: 45% 45%;
-    -ms-grid-rows: (25%)[3];
-        grid-template-rows: repeat(3, 25%);
+    grid-template-columns: 45% 45%;
+    /* -ms-grid-rows: (25%) [3]; */
+    grid-template-rows: repeat(3, 25%);
     grid-gap: 10%;
   }
   .content-care .context .page img {

@@ -76,7 +76,7 @@ function Breeds() {
         </div>
       </div>
 
-      <div className="intro page">
+      <div className="intro page tx-ct">
         <div className="intro-title mini-page">Dog Breeds</div>
         <div className="intro-text">
           There are various types of dog breeds, as a result of temperature,
@@ -142,7 +142,7 @@ function Breeds() {
           <div className="context-4 ">
             <p>
               <button onClick={upDade} className="cook">
-                Check out the list of all mixed and purebred dog breeds below,
+                Check out the list of some mixed and purebred dog breeds,
             </button>
             </p>
             <div className="overlay" id='side'>

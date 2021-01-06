@@ -41,8 +41,9 @@ $linkColor : rgb(169, 169, 169);
     margin-right: $mar;
 }
 
-
-
+.tx-ct {
+    text-align: center;
+}
 
 @import './header';
 @import './home';

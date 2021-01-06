@@ -16,7 +16,7 @@ function Lists() {
             famed for, if it aligns with you, your location or specific age
             groups or not.
         </div>
-        <div className="intro-sample ">
+        <div className="intro-sample tx-ct">
           e.g.The dogs in the herding list were developed to control large
           flocks of sheep or herds of cattle.
         </div>

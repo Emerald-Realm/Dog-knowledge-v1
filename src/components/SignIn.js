@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 function SignIn() {
   return (
     <div>
-      this is the sign-in form
+      {/* this is the sign-in form */}
       <div className="form-body">
         <form action="">
           <div className="username-div">
@@ -27,6 +27,9 @@ function SignIn() {
               placeholder="password"
             />
           </div>
+          <div className="submit">
+                <button>Submit</button>
+            </div>
         </form>
         <div className="question">
             <div className="forgot">Forgot your password ?</div>

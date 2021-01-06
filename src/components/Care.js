@@ -9,7 +9,7 @@ import dob from './images/doberman-1334497_1920.jpg'
 function Care() {
     return (
         <div>
-      <div className="intro">
+      <div className="intro tx-ct">
         <div className="intro-title">Dog Care</div>
         <div className="intro-text">
           Learn to care for your canine, to prevent diseases , death and keep
