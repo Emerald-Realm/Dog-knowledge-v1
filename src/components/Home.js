@@ -50,7 +50,7 @@ function Home() {
                 Hound and Labrador Retriever dog breeds.
               </small>
             </div>
-            <Link to="/breed">
+            <Link to="/breeds">
               <div className="moreBtn">
                 Learn more
             </div>
