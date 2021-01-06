@@ -157,6 +157,22 @@ form {
     }
 }
 
+.submit-btn {
+    @include paddingY(0.5rem);
+    width: 100%;
+    transition: 0.2s;
+    color: white;
+    background-color: $primaryColor;
+    border: white;
+    &:hover {
+        color: $primaryColor;
+        background-color: white;
+        border: 1px solid $primaryColor;
+        border-radius: 0.2rem;
+        cursor: pointer;
+    }
+}
+
 // SIGNUP
 
 .sign-up {

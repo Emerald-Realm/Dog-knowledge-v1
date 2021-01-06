@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 
@@ -27,20 +27,18 @@ function SignIn() {
               placeholder="password"
             />
           </div>
-          <div className="submit">
-                <button>Submit</button>
-            </div>
+          <button className="submit-btn">Submit</button>
         </form>
         <div className="question">
-            <div className="forgot">Forgot your password ?</div>
-            <Link to="/signup">
-              <div className="new-account">Create New Account</div>
-            </Link>
+          <div className="forgot">Forgot your password ?</div>
+          <Link to="/signup">
+            <div className="new-account">Create New Account</div>
+          </Link>
         </div>
         <div className="external">
-            <div className="google">Login with Google</div>
-            <div className="facebook">Login with facebook</div>
-            <div className="gmail">Login with Gmail</div>
+          <div className="google">Login with Google</div>
+          <div className="facebook">Login with facebook</div>
+          <div className="gmail">Login with Gmail</div>
         </div>
       </div>
     </div>
