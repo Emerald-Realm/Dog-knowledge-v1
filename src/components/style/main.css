@@ -104,7 +104,8 @@ footer {
   text-align: center;
 }
 
-.siteTitle, .intro-title, .text-head {
+.siteTitle, .intro-title,
+.text-head {
   font-weight: bolder;
   color: #ffbd15;
 }
@@ -255,6 +256,15 @@ form .password-div input {
   color: white;
 }
 
+.warning {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.warning:hover {
+  color: red;
+}
+
 .submit-btn {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -264,12 +274,12 @@ form .password-div input {
   color: white;
   background-color: #ffbd15;
   border: white;
+  border: 1px solid #ffbd15;
 }
 
 .submit-btn:hover {
   color: #ffbd15;
   background-color: white;
-  border: 1px solid #ffbd15;
   border-radius: 0.2rem;
   cursor: pointer;
 }
@@ -308,12 +318,12 @@ form .password-div input {
   color: white;
   background-color: #ffbd15;
   border: white;
+  border: 1px solid #ffbd15;
 }
 
 .sign-up form .submit-btn:hover {
   color: #ffbd15;
   background-color: white;
-  border: 1px solid #ffbd15;
   border-radius: 0.2rem;
   cursor: pointer;
 }
@@ -556,7 +566,7 @@ form .password-div input {
             align-items: center;
     -ms-grid-columns: 45% 45%;
         grid-template-columns: 45% 45%;
-    /* -ms-grid-rows: (25%)[3]; */
+    -ms-grid-rows: (25%)[3];
         grid-template-rows: repeat(3, 25%);
     grid-gap: 10%;
   }

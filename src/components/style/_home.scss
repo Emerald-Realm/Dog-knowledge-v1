@@ -1,229 +1,231 @@
 .showcase-img {
-    width: 100%;
+  width: 100%;
 }
 
 .case-img {
-    width: 100%;
+  width: 100%;
 }
 
 .showcase-text {
-    text-align: center;
+  text-align: center;
 }
 
-.siteTitle, .text-head {
-    font-weight: bolder;
-    color: $primaryColor;
+.siteTitle,
+.text-head {
+  font-weight: bolder;
+  color: $primaryColor;
 }
-
-
 
 .content,
 .home-content {
-    @include paddingY(4rem);
+  @include paddingY(4rem);
 }
 
 .page {
-    @include paddingY(2rem);
-    // border: 2px solid rgb(160, 160, 160);
+  @include paddingY(2rem);
+  // border: 2px solid rgb(160, 160, 160);
 }
 
 .mini-page {
-    @include paddingY(0.5rem)
+  @include paddingY(0.5rem);
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .intro-title {
-    @extend .siteTitle;
-    font-weight: bold;
-    text-align: center;
-    @include paddingY(1rem);
+  @extend .siteTitle;
+  font-weight: bold;
+  text-align: center;
+  @include paddingY(1rem);
 }
 
 .intro-text {
-    font-size: medium;
-    text-align: center;
+  font-size: medium;
+  text-align: center;
 }
 
 .intro-sample {
-    font-style: italic;
+  font-style: italic;
 }
 
 .link {
-    font-weight: bold;
-    :hover{
-        color: $primaryColor;
-    }
+  font-weight: bold;
+  :hover {
+    color: $primaryColor;
+  }
 }
 
 .moreBtn {
-    margin-top: 1rem;
-    display: inline-block;
-    border: 2px solid $primaryColor;
-    border-radius: 0.5rem;
-    color: $primaryColor;
-    padding: 0.5rem;
-    &:hover{
-        background-color: $primaryColor;
-        color: white;
-    }
+  margin-top: 1rem;
+  display: inline-block;
+  border: 2px solid $primaryColor;
+  border-radius: 0.5rem;
+  color: $primaryColor;
+  padding: 0.5rem;
+  &:hover {
+    background-color: $primaryColor;
+    color: white;
+  }
 }
 
 .hover {
-    &:hover{
-        color: $secondaryColor;
-        cursor: pointer;
-    }
+  &:hover {
+    color: $secondaryColor;
+    cursor: pointer;
+  }
 }
 
 // breed
 
-
 .hide {
-    display: none;
+  display: none;
 }
 
 // BLOG
 
-
 .content-blog {
-    .context {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        align-items: center;
-        grid-gap: 5%;
-        .page {
-            &:hover{
-                color: $linkColor;
-                text-decoration: underline;
-                cursor: pointer;
-            }
-        }
+  .context {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    grid-gap: 5%;
+    .page {
+      &:hover {
+        color: $linkColor;
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
+  }
 }
 
 // SIGN IN
 
-
-.form-body{
-    // border: 2px solid $primaryColor;
-    @include paddingY(2rem);
+.form-body {
+  // border: 2px solid $primaryColor;
+  @include paddingY(2rem);
 }
 
 form {
-    border: 2px solid $primaryColor;
-    margin-bottom: 2rem;
-    // margin: 2rem;
-    .username-div, 
-    .password-div {
-        margin: 1rem;
-        label{
-            margin: 0.3rem;
-        }
-        input {
-            width: 100%;
-            padding: 0.5rem;
-        }
+  border: 2px solid $primaryColor;
+  margin-bottom: 2rem;
+  // margin: 2rem;
+  .username-div,
+  .password-div {
+    margin: 1rem;
+    label {
+      margin: 0.3rem;
     }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+    }
+  }
 }
 
 .question {
-    text-align: center;
-    .forgot,
-    .new-account {
-        @include marginY(0.5rem);
-        &:hover{
-            color: $linkColor;
-            cursor: pointer;
-        }
+  text-align: center;
+  .forgot,
+  .new-account {
+    @include marginY(0.5rem);
+    &:hover {
+      color: $linkColor;
+      cursor: pointer;
     }
+  }
 }
 
 .external {
-    text-align: center;
-    .google,
-    .facebook,
-    .gmail {
-        border: 1px solid $primaryColor;
-        padding: 0.5rem;
-        margin-bottom: 0.5rem;
-        &:hover {
-            cursor: pointer;
-            background-color: $primaryColor;
-            color: white;
-        }
+  text-align: center;
+  .google,
+  .facebook,
+  .gmail {
+    border: 1px solid $primaryColor;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    &:hover {
+      cursor: pointer;
+      background-color: $primaryColor;
+      color: white;
     }
+  }
+}
+
+.warning {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  &:hover {
+    color: red;
+  }
 }
 
 .submit-btn {
-    @include paddingY(0.5rem);
-    width: 100%;
-    transition: 0.2s;
-    color: white;
-    background-color: $primaryColor;
-    border: white;
-    &:hover {
-        color: $primaryColor;
-        background-color: white;
-        border: 1px solid $primaryColor;
-        border-radius: 0.2rem;
-        cursor: pointer;
-    }
+  @include paddingY(0.5rem);
+  width: 100%;
+  transition: 0.2s;
+  color: white;
+  background-color: $primaryColor;
+  border: white;
+  border: 1px solid $primaryColor;
+  &:hover {
+    color: $primaryColor;
+    background-color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
 }
 
 // SIGNUP
 
 .sign-up {
-    
-    form {
-        border: none;
-        
-        .form-div {
-            padding: 0.5rem;
-                border: 2px solid $primaryColor;
-        }
+  form {
+    border: none;
 
-        .input-div{
-            label{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 0.2rem;
-                input {
-                    border: 1px solid $secondaryColor;
-                    padding: 0.5rem;
-                    width: 80%;
-                }
-            }
-        }
-
-        .submit-btn {
-            transition: 0.2s;
-            color: white;
-            background-color: $primaryColor;
-            border: white;
-            &:hover {
-                color: $primaryColor;
-                background-color: white;
-                border: 1px solid $primaryColor;
-                border-radius: 0.2rem;
-                cursor: pointer;
-            }
-        }
-
-        .btns{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        button {
-            margin-top: 2rem;
-            padding: 0.6rem;
-            width: 100%;
-        }
+    .form-div {
+      padding: 0.5rem;
+      border: 2px solid $primaryColor;
     }
-}
 
+    .input-div {
+      label {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.2rem;
+        input {
+          border: 1px solid $secondaryColor;
+          padding: 0.5rem;
+          width: 80%;
+        }
+      }
+    }
+
+    .submit-btn {
+      transition: 0.2s;
+      color: white;
+      background-color: $primaryColor;
+      border: white;
+      border: 1px solid $primaryColor;
+      &:hover {
+        color: $primaryColor;
+        background-color: white;
+        border-radius: 0.2rem;
+        cursor: pointer;
+      }
+    }
+
+    .btns {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.6rem;
+      width: 100%;
+    }
+  }
+}

@@ -15,7 +15,7 @@ function Signup() {
   const handleInfomat = (event) => {
     setInfomat({
       ...infomat,
-      [event.target.name] : event.target.value,
+      [event.target.name]: event.target.value,
       // age : event.target.value,
     })
   }
@@ -25,11 +25,11 @@ function Signup() {
     console.log(infomat);
     localStorage.setItem('infomat', JSON.stringify(infomat))
     setInfomat({
-    firstname: "",
-    lastname: "",
-    age: "",
-    email: "",
-    password: "",
+      firstname: "",
+      lastname: "",
+      age: "",
+      email: "",
+      password: "",
     })
   }
 
@@ -104,14 +104,16 @@ function Signup() {
               </label>
             </div>
           </div>
-            {/* <button className="submit-btn" type="submit" >Submit</button> */}
+          <div className="tx-ct warning"> Please Submit Before Moving To The Next Page</div>
+
+          <button className="submit-btn" type="submit" >Submit</button>
           <div className="btns">
-          <Link to="/sign-in">
-          <button type="">back</button>
-          </Link>
-          <Link to="/account">
-          <button type="">next</button>
-          </Link>
+            <Link to="/sign-in">
+              <button type="">back</button>
+            </Link>
+            <Link to="/account">
+              <button type="">next</button>
+            </Link>
           </div>
         </form>
         <div className="external">
